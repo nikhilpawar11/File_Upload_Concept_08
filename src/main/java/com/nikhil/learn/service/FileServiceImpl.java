@@ -38,7 +38,7 @@ public class FileServiceImpl implements FileService {
 				
 				//create new folder
 				
-				boolean mkdirs = folder.mkdirs();
+				folder.mkdirs();
 				
 			}
 			
